@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "gqELUEv+iLyYIz2ycu9RvasDvruoBA70b25wX/Ewbmo=",
+  "Source": "WorldXApi",
+  "BasePath": "_content/WorldXApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WorldXApi\\wwwroot",
+      "Source": "WorldXApi",
+      "ContentRoot": "C:\\Users\\Danie\\source\\repos\\WorldXApi\\WorldXApi\\wwwroot\\",
+      "BasePath": "_content/WorldXApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Danie\\source\\repos\\WorldXApi\\WorldXApi\\wwwroot\\index.html",
+      "SourceId": "WorldXApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Danie\\source\\repos\\WorldXApi\\WorldXApi\\wwwroot\\",
+      "BasePath": "_content/WorldXApi",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gz9991it9l",
+      "Integrity": "zEfBtr0gwVwtWLXBNw5jQEClnvjkRIoxW7D0RySsPgA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "index.gz9991it9l.html",
+      "AssetFile": "C:\\Users\\Danie\\source\\repos\\WorldXApi\\WorldXApi\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2180"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zEfBtr0gwVwtWLXBNw5jQEClnvjkRIoxW7D0RySsPgA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 16 Jan 2025 17:48:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gz9991it9l"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zEfBtr0gwVwtWLXBNw5jQEClnvjkRIoxW7D0RySsPgA="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\Danie\\source\\repos\\WorldXApi\\WorldXApi\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2180"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zEfBtr0gwVwtWLXBNw5jQEClnvjkRIoxW7D0RySsPgA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 16 Jan 2025 17:48:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zEfBtr0gwVwtWLXBNw5jQEClnvjkRIoxW7D0RySsPgA="
+        }
+      ]
+    }
+  ]
+}

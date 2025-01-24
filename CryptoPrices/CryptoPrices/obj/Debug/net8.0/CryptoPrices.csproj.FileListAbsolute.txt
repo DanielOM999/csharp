@@ -1,0 +1,74 @@
+C:\Users\lumiUser\source\repos\CryptoPrices\CryptoPrices\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\lumiUser\source\repos\CryptoPrices\CryptoPrices\bin\Debug\net8.0\appsettings.json
+C:\Users\lumiUser\source\repos\CryptoPrices\CryptoPrices\bin\Debug\net8.0\CryptoPrices.staticwebassets.runtime.json
+C:\Users\lumiUser\source\repos\CryptoPrices\CryptoPrices\bin\Debug\net8.0\CryptoPrices.staticwebassets.endpoints.json
+C:\Users\lumiUser\source\repos\CryptoPrices\CryptoPrices\bin\Debug\net8.0\CryptoPrices.exe
+C:\Users\lumiUser\source\repos\CryptoPrices\CryptoPrices\bin\Debug\net8.0\CryptoPrices.deps.json
+C:\Users\lumiUser\source\repos\CryptoPrices\CryptoPrices\bin\Debug\net8.0\CryptoPrices.runtimeconfig.json
+C:\Users\lumiUser\source\repos\CryptoPrices\CryptoPrices\bin\Debug\net8.0\CryptoPrices.dll
+C:\Users\lumiUser\source\repos\CryptoPrices\CryptoPrices\bin\Debug\net8.0\CryptoPrices.pdb
+C:\Users\lumiUser\source\repos\CryptoPrices\CryptoPrices\obj\Debug\net8.0\CryptoPrices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lumiUser\source\repos\CryptoPrices\CryptoPrices\obj\Debug\net8.0\CryptoPrices.AssemblyInfoInputs.cache
+C:\Users\lumiUser\source\repos\CryptoPrices\CryptoPrices\obj\Debug\net8.0\CryptoPrices.AssemblyInfo.cs
+C:\Users\lumiUser\source\repos\CryptoPrices\CryptoPrices\obj\Debug\net8.0\CryptoPrices.csproj.CoreCompileInputs.cache
+C:\Users\lumiUser\source\repos\CryptoPrices\CryptoPrices\obj\Debug\net8.0\CryptoPrices.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\lumiUser\source\repos\CryptoPrices\CryptoPrices\obj\Debug\net8.0\CryptoPrices.RazorAssemblyInfo.cache
+C:\Users\lumiUser\source\repos\CryptoPrices\CryptoPrices\obj\Debug\net8.0\CryptoPrices.RazorAssemblyInfo.cs
+C:\Users\lumiUser\source\repos\CryptoPrices\CryptoPrices\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\lumiUser\source\repos\CryptoPrices\CryptoPrices\obj\Debug\net8.0\scopedcss\bundle\CryptoPrices.styles.css
+C:\Users\lumiUser\source\repos\CryptoPrices\CryptoPrices\obj\Debug\net8.0\scopedcss\projectbundle\CryptoPrices.bundle.scp.css
+C:\Users\lumiUser\source\repos\CryptoPrices\CryptoPrices\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\lumiUser\source\repos\CryptoPrices\CryptoPrices\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\lumiUser\source\repos\CryptoPrices\CryptoPrices\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\lumiUser\source\repos\CryptoPrices\CryptoPrices\obj\Debug\net8.0\staticwebassets\msbuild.CryptoPrices.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\lumiUser\source\repos\CryptoPrices\CryptoPrices\obj\Debug\net8.0\staticwebassets\msbuild.CryptoPrices.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\lumiUser\source\repos\CryptoPrices\CryptoPrices\obj\Debug\net8.0\staticwebassets\msbuild.build.CryptoPrices.props
+C:\Users\lumiUser\source\repos\CryptoPrices\CryptoPrices\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CryptoPrices.props
+C:\Users\lumiUser\source\repos\CryptoPrices\CryptoPrices\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CryptoPrices.props
+C:\Users\lumiUser\source\repos\CryptoPrices\CryptoPrices\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\lumiUser\source\repos\CryptoPrices\CryptoPrices\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\lumiUser\source\repos\CryptoPrices\CryptoPrices\obj\Debug\net8.0\CryptoPrices.dll
+C:\Users\lumiUser\source\repos\CryptoPrices\CryptoPrices\obj\Debug\net8.0\refint\CryptoPrices.dll
+C:\Users\lumiUser\source\repos\CryptoPrices\CryptoPrices\obj\Debug\net8.0\CryptoPrices.pdb
+C:\Users\lumiUser\source\repos\CryptoPrices\CryptoPrices\obj\Debug\net8.0\CryptoPrices.genruntimeconfig.cache
+C:\Users\lumiUser\source\repos\CryptoPrices\CryptoPrices\obj\Debug\net8.0\ref\CryptoPrices.dll
+C:\Users\lumiUser\source\repos\CryptoPrices\CryptoPrices\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\lumiUser\source\repos\CryptoPrices\CryptoPrices\obj\Debug\net8.0\CryptoPrices.csproj.AssemblyReference.cache
+C:\Users\lumiUser\source\repos\CryptoPrices\CryptoPrices\obj\Debug\net8.0\CryptoPr.06F8EEFA.Up2Date
+C:\Users\Danie\OneDrive - Buskerud fylkeskommune\Documents\csharp\CryptoPrices\CryptoPrices\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Danie\OneDrive - Buskerud fylkeskommune\Documents\csharp\CryptoPrices\CryptoPrices\bin\Debug\net8.0\appsettings.json
+C:\Users\Danie\OneDrive - Buskerud fylkeskommune\Documents\csharp\CryptoPrices\CryptoPrices\bin\Debug\net8.0\CryptoPrices.staticwebassets.runtime.json
+C:\Users\Danie\OneDrive - Buskerud fylkeskommune\Documents\csharp\CryptoPrices\CryptoPrices\bin\Debug\net8.0\CryptoPrices.staticwebassets.endpoints.json
+C:\Users\Danie\OneDrive - Buskerud fylkeskommune\Documents\csharp\CryptoPrices\CryptoPrices\bin\Debug\net8.0\CryptoPrices.exe
+C:\Users\Danie\OneDrive - Buskerud fylkeskommune\Documents\csharp\CryptoPrices\CryptoPrices\bin\Debug\net8.0\CryptoPrices.deps.json
+C:\Users\Danie\OneDrive - Buskerud fylkeskommune\Documents\csharp\CryptoPrices\CryptoPrices\bin\Debug\net8.0\CryptoPrices.runtimeconfig.json
+C:\Users\Danie\OneDrive - Buskerud fylkeskommune\Documents\csharp\CryptoPrices\CryptoPrices\bin\Debug\net8.0\CryptoPrices.dll
+C:\Users\Danie\OneDrive - Buskerud fylkeskommune\Documents\csharp\CryptoPrices\CryptoPrices\bin\Debug\net8.0\CryptoPrices.pdb
+C:\Users\Danie\OneDrive - Buskerud fylkeskommune\Documents\csharp\CryptoPrices\CryptoPrices\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Danie\OneDrive - Buskerud fylkeskommune\Documents\csharp\CryptoPrices\CryptoPrices\obj\Debug\net8.0\CryptoPrices.csproj.AssemblyReference.cache
+C:\Users\Danie\OneDrive - Buskerud fylkeskommune\Documents\csharp\CryptoPrices\CryptoPrices\obj\Debug\net8.0\CryptoPrices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Danie\OneDrive - Buskerud fylkeskommune\Documents\csharp\CryptoPrices\CryptoPrices\obj\Debug\net8.0\CryptoPrices.AssemblyInfoInputs.cache
+C:\Users\Danie\OneDrive - Buskerud fylkeskommune\Documents\csharp\CryptoPrices\CryptoPrices\obj\Debug\net8.0\CryptoPrices.AssemblyInfo.cs
+C:\Users\Danie\OneDrive - Buskerud fylkeskommune\Documents\csharp\CryptoPrices\CryptoPrices\obj\Debug\net8.0\CryptoPrices.csproj.CoreCompileInputs.cache
+C:\Users\Danie\OneDrive - Buskerud fylkeskommune\Documents\csharp\CryptoPrices\CryptoPrices\obj\Debug\net8.0\CryptoPrices.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Danie\OneDrive - Buskerud fylkeskommune\Documents\csharp\CryptoPrices\CryptoPrices\obj\Debug\net8.0\CryptoPrices.RazorAssemblyInfo.cache
+C:\Users\Danie\OneDrive - Buskerud fylkeskommune\Documents\csharp\CryptoPrices\CryptoPrices\obj\Debug\net8.0\CryptoPrices.RazorAssemblyInfo.cs
+C:\Users\Danie\OneDrive - Buskerud fylkeskommune\Documents\csharp\CryptoPrices\CryptoPrices\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Danie\OneDrive - Buskerud fylkeskommune\Documents\csharp\CryptoPrices\CryptoPrices\obj\Debug\net8.0\scopedcss\bundle\CryptoPrices.styles.css
+C:\Users\Danie\OneDrive - Buskerud fylkeskommune\Documents\csharp\CryptoPrices\CryptoPrices\obj\Debug\net8.0\scopedcss\projectbundle\CryptoPrices.bundle.scp.css
+C:\Users\Danie\OneDrive - Buskerud fylkeskommune\Documents\csharp\CryptoPrices\CryptoPrices\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Danie\OneDrive - Buskerud fylkeskommune\Documents\csharp\CryptoPrices\CryptoPrices\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Danie\OneDrive - Buskerud fylkeskommune\Documents\csharp\CryptoPrices\CryptoPrices\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Danie\OneDrive - Buskerud fylkeskommune\Documents\csharp\CryptoPrices\CryptoPrices\obj\Debug\net8.0\staticwebassets\msbuild.CryptoPrices.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Danie\OneDrive - Buskerud fylkeskommune\Documents\csharp\CryptoPrices\CryptoPrices\obj\Debug\net8.0\staticwebassets\msbuild.CryptoPrices.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Danie\OneDrive - Buskerud fylkeskommune\Documents\csharp\CryptoPrices\CryptoPrices\obj\Debug\net8.0\staticwebassets\msbuild.build.CryptoPrices.props
+C:\Users\Danie\OneDrive - Buskerud fylkeskommune\Documents\csharp\CryptoPrices\CryptoPrices\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CryptoPrices.props
+C:\Users\Danie\OneDrive - Buskerud fylkeskommune\Documents\csharp\CryptoPrices\CryptoPrices\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CryptoPrices.props
+C:\Users\Danie\OneDrive - Buskerud fylkeskommune\Documents\csharp\CryptoPrices\CryptoPrices\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Danie\OneDrive - Buskerud fylkeskommune\Documents\csharp\CryptoPrices\CryptoPrices\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Danie\OneDrive - Buskerud fylkeskommune\Documents\csharp\CryptoPrices\CryptoPrices\obj\Debug\net8.0\CryptoPr.06F8EEFA.Up2Date
+C:\Users\Danie\OneDrive - Buskerud fylkeskommune\Documents\csharp\CryptoPrices\CryptoPrices\obj\Debug\net8.0\CryptoPrices.dll
+C:\Users\Danie\OneDrive - Buskerud fylkeskommune\Documents\csharp\CryptoPrices\CryptoPrices\obj\Debug\net8.0\refint\CryptoPrices.dll
+C:\Users\Danie\OneDrive - Buskerud fylkeskommune\Documents\csharp\CryptoPrices\CryptoPrices\obj\Debug\net8.0\CryptoPrices.pdb
+C:\Users\Danie\OneDrive - Buskerud fylkeskommune\Documents\csharp\CryptoPrices\CryptoPrices\obj\Debug\net8.0\CryptoPrices.genruntimeconfig.cache
+C:\Users\Danie\OneDrive - Buskerud fylkeskommune\Documents\csharp\CryptoPrices\CryptoPrices\obj\Debug\net8.0\ref\CryptoPrices.dll

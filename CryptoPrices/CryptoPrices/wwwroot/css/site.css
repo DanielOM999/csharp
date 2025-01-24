@@ -1,0 +1,39 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Satte bare opp at det skal være lit avstand til bunden og bakgrunnsfargen og tekst fargen */
+  margin-bottom: 60px;
+  background: #333;
+  color: white;
+}
+
+/* CSS-en justerer layouten for mobilskjermer ved å endre rekkefølgen på elementene og sentrere tekst og avstand */
+@media (max-width: 600px) {
+    .lead {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .lead p {
+        font-size: 1.5rem;
+        margin: 1rem 0;
+    }
+}

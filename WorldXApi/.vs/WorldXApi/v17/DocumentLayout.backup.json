@@ -1,0 +1,93 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Danie\\source\\repos\\WorldXApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7662A721-A5F9-466B-80CB-AB77C147F065}|WorldXApi\\WorldXApi.csproj|c:\\users\\danie\\source\\repos\\worldxapi\\worldxapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7662A721-A5F9-466B-80CB-AB77C147F065}|WorldXApi\\WorldXApi.csproj|solutionrelative:worldxapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7662A721-A5F9-466B-80CB-AB77C147F065}|WorldXApi\\WorldXApi.csproj|c:\\users\\danie\\source\\repos\\worldxapi\\worldxapi\\controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7662A721-A5F9-466B-80CB-AB77C147F065}|WorldXApi\\WorldXApi.csproj|solutionrelative:worldxapi\\controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7662A721-A5F9-466B-80CB-AB77C147F065}|WorldXApi\\WorldXApi.csproj|c:\\users\\danie\\source\\repos\\worldxapi\\worldxapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7662A721-A5F9-466B-80CB-AB77C147F065}|WorldXApi\\WorldXApi.csproj|solutionrelative:worldxapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7662A721-A5F9-466B-80CB-AB77C147F065}|WorldXApi\\WorldXApi.csproj|c:\\users\\danie\\source\\repos\\worldxapi\\worldxapi\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7662A721-A5F9-466B-80CB-AB77C147F065}|WorldXApi\\WorldXApi.csproj|solutionrelative:worldxapi\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Danie\\source\\repos\\WorldXApi\\WorldXApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WorldXApi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Danie\\source\\repos\\WorldXApi\\WorldXApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WorldXApi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-16T17:30:02.951Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Danie\\source\\repos\\WorldXApi\\WorldXApi\\appsettings.json",
+              "RelativeDocumentMoniker": "WorldXApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\Danie\\source\\repos\\WorldXApi\\WorldXApi\\appsettings.json",
+              "RelativeToolTip": "WorldXApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-16T17:09:40.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\Danie\\source\\repos\\WorldXApi\\WorldXApi\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "WorldXApi\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\Danie\\source\\repos\\WorldXApi\\WorldXApi\\wwwroot\\index.html",
+              "RelativeToolTip": "WorldXApi\\wwwroot\\index.html",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-01-16T17:38:10.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CountryController.cs",
+              "DocumentMoniker": "C:\\Users\\Danie\\source\\repos\\WorldXApi\\WorldXApi\\Controllers\\CountryController.cs",
+              "RelativeDocumentMoniker": "WorldXApi\\Controllers\\CountryController.cs",
+              "ToolTip": "C:\\Users\\Danie\\source\\repos\\WorldXApi\\WorldXApi\\Controllers\\CountryController.cs",
+              "RelativeToolTip": "WorldXApi\\Controllers\\CountryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T17:16:30.187Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

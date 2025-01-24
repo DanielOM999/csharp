@@ -1,0 +1,172 @@
+﻿@page
+@model IndexModel
+@{
+    // Razor syntax brukes her til å hente dataen fra API fetchingen i Index.cshtml.cs, dette blir deretter gjort
+    // til JavaScript-variabler ved å serializ-e dataene til JSON.
+    var bitcoinHistoryJson = Json.Serialize(ViewData["BitcoinHistory"]);
+    var bitcoinHistoryTimeJson = Json.Serialize(ViewData["bitcoinHistoryTime"]);
+    var ethereumHistoryJson = Json.Serialize(ViewData["EthereumHistory"]);
+    var ethereumHistoryTimeJson = Json.Serialize(ViewData["EthereumHistoryTime"]);
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crypto Prices</title>
+    <!-- Inkluderer Bootstrap CSS for layout og stil -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Inkluderer Owl Carousel CSS for karusellfunksjonalitet-en -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" rel="stylesheet">
+    <!-- Lenker til nettsidens egen CSS fil -->
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Current Bitcoin and Ethereum prices in NOK</h1>
+        <!-- Viser de nåværende prisene på Bitcoin og Ethereum -->
+        <div class="d-flex container lead flex-wrap justify-content-between">
+            <p class="mt-5"><strong>Bitcoin:</strong> @(Model.Prices.Bitcoin > 0 ? Model.Prices.Bitcoin.ToString("N0") : "Loading...") Kr</p>
+            <p class="m-5"><strong>Ethereum:</strong> @(Model.Prices.Ethereum > 0 ? Model.Prices.Ethereum.ToString("N0") : "Loading...") Kr</p>
+        </div>
+
+        <!-- Karusell for å vise pris historien til Bitcoin og Ethereum de siste 7-dagene -->
+        <div class="owl-carousel owl-theme">
+            <div class="item" style="position: relative; height:75vh; width:75vw">
+                <canvas id="bitcoinChart" width="400" height="200"></canvas>
+            </div>
+        
+            <div class="item" style="position: relative; height:75vh; width:75vw">
+                <canvas id="ethereumChart" width="400" height="200"></canvas>
+            </div>
+        </div>
+
+        <!-- Inkluderer Vhart.js for å vise diagramer -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js" crossorigin="anonymous"></script>
+        <!-- Inkluderer jquery dette for å bruke til OWL karusellene -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" crossorigin="anonymous"></script>
+        <!-- Inkluderer OWL sin javascript for deres funksjonalitet -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <!-- Egen javascript - kunne brukt site.js men tenkte dette var ikke så nødvendig -->
+        <script>
+            // Denne koden henter bitcoin og ethereum historie og tid dataen fra serveren (som er lagret i ViewData i Razor-syntaksen) og konverterer det til JavaScript-variabler
+            const bitcoinHistory = @Html.Raw(bitcoinHistoryJson);
+            const bitcoinHistoryTime = @Html.Raw(bitcoinHistoryTimeJson);
+            const ethereumHistory = @Html.Raw(ethereumHistoryJson);
+            const ethereumHistoryTime = @Html.Raw(ethereumHistoryTimeJson);
+
+            // Denne koden henter referanser til <canvas> elementene som skal brukes til å inneholde charts-ene 
+            // deretter settes det opp et 2D-kontext for å kunne tegne på dem
+            let bitcoinChart = document.getElementById('bitcoinChart').getContext('2d');
+            let ethereumChart = document.getElementById('ethereumChart').getContext('2d');
+
+            // Hern opprettes et linjediagram for Bitcoin-priser ved hjelp av Chart.js. den maper opp dataen fra 
+            // bitcoinHistory fra [data] til: data. Derreter bruker den tidene laged i Index.cshtml.cs. så er det lit styling med farger
+            // tooltips labels osv..
+            let bitcoinHisChart = new Chart(bitcoinChart, {
+                type:'line',
+                labels: "Bitcoin Price Over Time",
+                data:{
+                    labels: bitcoinHistoryTime,
+                    datasets:[{
+                        label: 'Bitcoin',
+                        data: bitcoinHistory.map(entry => entry[0]),
+                        borderColor: 'rgba(75, 192, 192, 1)',
+                        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                        borderWidth: 2,
+                        tension: 0.4
+                    }]
+                },
+                options:{
+                    responsive: true, 
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Bitcoin Price Over Time',
+                            font: {
+                                size: 18
+                            }
+                        },
+                        tooltip: {
+                            enabled: true
+                        }
+                    },
+                    scales: {
+                        x: {
+                            title: {
+                                display: true,
+                                text: 'Time'
+                            }
+                        },
+                        y: {
+                            title: {
+                                display: true,
+                                text: 'Price in NOK'
+                            },
+                            beginAtZero: false
+                        }
+                    }
+                }
+            });
+            
+            // Hern opprettes et linjediagram for Ethereum-priser ved hjelp av Chart.js. den maper opp dataen fra
+            // ethereumHistory fra [data] til: data. Derreter bruker den tidene laged i Index.cshtml.cs. så er det lit styling med farger
+            // tooltips labels osv..
+            let ethereumHisChart = new Chart(ethereumChart, {
+                type:'line',
+                labels: "Ethereum Price Over Time",
+                data:{
+                    labels: ethereumHistoryTime,
+                    datasets:[{
+                        label: 'Ethereum',
+                        data: ethereumHistory.map(entry => entry[0]),
+                        borderColor: 'rgba(75, 192, 192, 1)',
+                        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                        borderWidth: 2,
+                        tension: 0.4
+                    }]
+                },
+                options:{
+                    responsive: true, 
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Ethereum Price Over Time',
+                            font: {
+                                size: 18
+                            }
+                        },
+                        tooltip: {
+                            enabled: true
+                        }
+                    },
+                    scales: {
+                        x: {
+                            title: {
+                                display: true,
+                                text: 'Time'
+                            }
+                        },
+                        y: {
+                            title: {
+                                display: true,
+                                text: 'Price in NOK'
+                            },
+                            beginAtZero: false
+                        }
+                    }
+                }
+            });
+
+            // setter opp og initilizer jquery OWL caruselene etter dokumentet har loaded
+            jQuery.noConflict();
+            jQuery(document).ready(function($) {
+                $(".owl-carousel").owlCarousel({
+                    autoWidth: true,
+                    margin: 10,
+                    loop: false,
+                });
+            });
+        </script>
+    </div>
+</body>
+</html>
